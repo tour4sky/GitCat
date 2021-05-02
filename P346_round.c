@@ -7,7 +7,7 @@ void main(void)
 {
     double x=123.456789;
     int i;
-    for (i=-2;i<5;i++) 
+    for (i=-2;i<7;i++) 
     {
         printf("%f의 %d자리 반올림 = %f \n", x, i, banollim(x, i));
     }
